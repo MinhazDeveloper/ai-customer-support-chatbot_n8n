@@ -1,13 +1,5 @@
-# AI Customer Support Chatbot (n8n)
+Customer Support Chatbot (n8n + Google Sheets)
 
-Telegram/WhatsApp → AI Agent + Memory → Auto-reply + Sheets log.
+An automated customer support chatbot workflow built using n8n, designed to handle customer inquiries, manage orders, and process refunds and cancellations based on predefined business rules.
 
-## Demo
-[Embed YouTube/Loom video]
-
-## Setup
-1. n8n-এ Import: Download [workflow.json](workflow.json)
-2. Credentials add: OpenAI, Telegram API
-3. Activate!
-
-## Screenshot
+The system integrates with a Google Sheets database to store and retrieve customer and order information, and uses a JSON workflow file that can be directly imported into n8n.
